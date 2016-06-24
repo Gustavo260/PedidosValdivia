@@ -1,0 +1,38 @@
+.banner
+{
+	width:612px;
+	height: 213px;
+	margin:auto;
+	background-size: 100% 100%;
+	animation: banner 10s infinite;
+	border:1px solid #E2E2E2;
+	border-radius:10px;
+}
+
+@keyframes banner
+{
+	0%, 30%
+	{
+		<?php $r="../recursos/main.jpg"; ?>
+		background-image:url(<?php echo $r; ?>);
+		opacity:1;
+	}
+	31%, 34%
+	{
+		opacity:0.1;
+	}
+	35%, 65%
+	{
+		background-image:url(../recursos/logonuevo.png);
+		opacity: 1;
+	}
+	66%, 69%
+	{
+		opacity:0.1;
+	}
+	70%, 100%
+	{
+		opacity:1;
+		background-image:url(../recursos/logonuevotrans.png);
+	}	
+}

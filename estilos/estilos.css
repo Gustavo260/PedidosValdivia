@@ -1,0 +1,138 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{	
+	background: url(../recursos/fondo.png) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.contenedor
+{
+	width:100%;
+	height:100%;
+	max-width:1370px;
+	max-height:800px;
+	margin:25%;
+	margin:0 auto;
+	background:rgba(102,255,204,0.4);
+	overflow:hidden;
+}
+
+.panelIR
+{
+	text-align:right;
+}
+
+.logo
+{
+	text-align:center;
+	margin-top:10%;
+	color:rgba(255,255,255,1);
+}
+
+.buscador
+{
+	text-align:center;
+	margin-top:10%;
+	color:rgba(255,255,255,1);
+	width:100%;
+}
+
+.seudofooter
+{
+	text-align:center;
+	color:rgba(255,255,255,1);
+	margin-top:13%;
+}
+
+#loading
+{
+		width:100%;
+		height:100%;
+		background-color:#ccc;
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:9999;
+		opacity: 0.8;
+		filter: alpha(opacity=80);
+}
+		
+/* Barra de busqueda */
+.container-4{
+  overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;}
+
+.container-4 input#txtLocalizacion{
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  
+  color: #fff;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.container-4 input#txtLocalizacion::-webkit-input-placeholder {
+   color: #65737e;
+}
+ 
+.container-4 input#txtLocalizacion:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+.container-4 input#txtLocalizacion::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+ 
+.container-4 input#txtLocalizacion:-ms-input-placeholder {  
+   color: #65737e;  
+}
+
+.container-4 button.icon{
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+ 
+  border: none;
+  background: #232833;
+  height: 50px;
+  width: 50px;
+  color: #4f5b66;
+  opacity: 0;
+  font-size: 10pt;
+ 
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+
+.container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon{
+  outline: none;
+  opacity: 1;
+  margin-left: -76px;
+  margin-bottom:13px;
+}
+ 
+.container-4:hover button.icon:hover{
+  background: white;
+}
+/* Fin barra de busqueda */
